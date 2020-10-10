@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/map"
+        android:enabled="true"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/action_board"
+        android:icon="@drawable/list"
+        android:enabled="true"
+        android:title="게시판"/>
+
+    <item
+        android:id="@+id/action_add_photo"
+        android:icon="@drawable/add"
+        android:enabled="true"
+        android:title="추가"/>
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/alarm"
+        android:enabled="true"
+        android:title="알림"/>
+
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/user"
+        android:enabled="true"
+        android:title="마이페이지"/>
+</menu>
