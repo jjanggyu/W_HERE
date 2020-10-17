@@ -10,7 +10,8 @@
         android:background="@color/toolbar"
         android:id="@+id/my_toolbar"
         android:layout_height="60dp"
-        android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        app:contentInsetStart="0dp">
 
         <LinearLayout
             android:layout_height="match_parent"
@@ -26,16 +27,17 @@
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:text="마이 페이지"
+                android:textStyle="bold"
                 android:textSize="25sp" />
 
             <Button
                 android:background="@drawable/ic_drawer"
                 android:id="@+id/mypage_drawer"
-                android:layout_height="25dp"
+                android:layout_height="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginTop="3dp"
-                android:layout_width="25dp" />
+                android:layout_marginTop="5.5dp"
+                android:layout_width="20dp" />
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 
