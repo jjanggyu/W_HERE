@@ -1,2 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="date_year">
+        <item>년</item>
+        <item>2000년</item>
+        <item>2001년</item>
+        <item>2002년</item>
+        <item>2003년</item>
+        <item>2004년</item>
+        <item>2005년</item>
+        <item>2006년</item>
+        <item>2007년</item>
+        <item>2008년</item>
+        <item>2009년</item>
+        <item>2010년</item>
+        <item>2011년</item>
+        <item>2012년</item>
+        <item>2013년</item>
+        <item>2014년</item>
+        <item>2016년</item>
+        <item>2017년</item>
+        <item>2018년</item>
+        <item>2019년</item>
+        <item>2020년</item>
+    </string-array>
+
+    <string-array name="date_month">일
+        <item>월</item>
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <string-array name="date_date">
+        <item>일</item>
+        <item>1일</item>
+        <item>2일</item>
+        <item>3일</item>
+        <item>4일</item>
+        <item>5일</item>
+        <item>6일</item>
+        <item>7일</item>
+        <item>8일</item>
+        <item>9일</item>
+        <item>10일</item>
+        <item>11일</item>
+        <item>12일</item>
+        <item>13일</item>
+        <item>14일</item>
+        <item>15일</item>
+        <item>16일</item>
+        <item>17일</item>
+        <item>18일</item>
+        <item>19일</item>
+        <item>20일</item>
+        <item>21일</item>
+        <item>22일</item>
+        <item>23일</item>
+        <item>24일</item>
+        <item>25일</item>
+        <item>26일</item>
+        <item>27일</item>
+        <item>28일</item>
+        <item>29일</item>
+        <item>30일</item>
+        <item>31일</item>
+    </string-array>
+
+    <string-array name="app">
+        <item>촬영 어플</item>
+        <item>기본 카메라</item>
+        <item>SNOW</item>
+        <item>Ulike</item>
+        <item>SODA</item>
+        <item>AnalogFilm</item>
+    </string-array>
+
+    <string-array name="phone">
+        <item>기종</item>
+        <item>아이폰7</item>
+        <item>아이폰8</item>
+        <item>아이폰X</item>
+        <item>아이폰XS</item>
+        <item>아이폰XR</item>
+        <item>아이폰11</item>
+        <item>아이폰11pro</item>
+        <item>아이폰11pro Max</item>
+        <item>LG Q9</item>
+        <item>갤럭시S</item>
+        <item>갤럭시 노트</item>
+    </string-array>
+</resources>
