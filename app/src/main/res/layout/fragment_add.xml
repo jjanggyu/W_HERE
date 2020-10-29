@@ -31,7 +31,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="추가"
+                android:text="@string/title_add"
                 android:gravity="center"
                 android:textSize="25sp" />
             <Button
@@ -98,6 +98,65 @@
             android:layout_height="0.5dp"
             android:background="#C9C9C9">
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/add_year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/date_year"/>
+            <Spinner
+                android:id="@+id/add_month"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/date_month"/>
+            <Spinner
+                android:id="@+id/add_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/date_date"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#C9C9C9">
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/add_app"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:entries="@array/app"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#C9C9C9">
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/add_phone"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:entries="@array/phone"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#C9C9C9">
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="장소, 특이사항, 보정법, 날씨 등 자유로운 내용을 작성해 주세요"/>
+
 
 
 

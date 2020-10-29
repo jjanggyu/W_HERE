@@ -22,7 +22,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="게시판"
+                android:text="@string/title_board"
                 android:gravity="center"
                 android:textSize="25sp"
                 android:layout_marginLeft="60dp"/>

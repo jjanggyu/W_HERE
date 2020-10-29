@@ -18,7 +18,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="알림"
+                android:text="@string/title_notification"
                 android:gravity="center"
                 android:textSize="25sp"/>
         </LinearLayout>
