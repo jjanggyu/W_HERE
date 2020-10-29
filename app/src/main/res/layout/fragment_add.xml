@@ -31,7 +31,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="추가"
+                android:text="@string/title_add"
                 android:gravity="center"
                 android:textSize="25sp" />
             <Button
@@ -145,7 +145,17 @@
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:entries="@array/phone"/>
-
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#C9C9C9">
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="장소, 특이사항, 보정법, 날씨 등 자유로운 내용을 작성해 주세요"/>
 
 
 
