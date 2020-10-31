@@ -19,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="addphoto" />
-                            <entry key="sourceFile" value="$PROJECT_DIR$/../../addphoto.svg" />
+                            <entry key="outputName" value="signblankbtn_outline" />
+                            <entry key="sourceFile" value="$PROJECT_DIR$/../../addplace.svg" />
                           </map>
                         </option>
                       </PersistentState>

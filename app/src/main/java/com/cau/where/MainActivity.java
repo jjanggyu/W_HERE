@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         navView.setOnNavigationItemSelectedListener(this);
+        navView.setSelectedItemId(R.id.action_home);
     }
 
     public boolean onNavigationItemSelected(@NotNull MenuItem p0) {
