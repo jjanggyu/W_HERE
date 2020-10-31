@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@drawable/signin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/intro_signin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/signinbtn_outline"
+            android:text="로그인"
+            android:textSize="17sp"
+            android:textColor="@color/themecolor"
+            android:gravity="center"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/intro_signup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/signupbtn_outline"
+            android:text="회원가입"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

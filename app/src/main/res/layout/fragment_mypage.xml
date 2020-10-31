@@ -89,7 +89,7 @@
             android:id="@+id/mypage_mypic"
             android:layout_height="match_parent"
             android:layout_width="150dp"
-            android:src="@drawable/where_icon" />
+            android:src="@drawable/profilepic" />
 
         <Button
             android:background="@drawable/editprofile"
